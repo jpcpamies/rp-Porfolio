@@ -7,79 +7,79 @@
 	<link rel="stylesheet" href="../static/css/estilos.css">
 </head>
 <body>
-	<header id="yo">
-		<nav>
-			<ul>
-				<li>
-					<a href="#yo">Yo</a>
+	<header id="yo" class="Header">
+		<nav class="MainMenu">
+			<ul class="MainMenu-list">
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#yo">Yo</a>
 				</li>
-				<li>
-					<a href="#perfil">Perfil</a>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#perfil">Perfil</a>
 				</li>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#trabajo">Trabajo</a>
+				</li class="MainMenu-item">
 				<li>
-					<a href="#trabajo">Trabajo</a>
-				</li>
-				<li>
-					<a href="#contacto">Contacto</a>
+					<a class="MainMenu-link" href="#contacto">Contacto</a>
 				</li>
 			</ul>
 		</nav>
-		<figure>
-			<img src="avatar.jpg" alt="Imagen personal" />
-			<figcaption><a href="http://twitter.com/jpcpamies" target='blank'>@jpcpamies</a></figcaption>
+		<figure class="Header-imageContainer">
+			<img class="Header-image" src="avatar.jpg" alt="Imagen personal"  />
+			<figcaption class="Header-imageDescription"><a class="Header-link" href="http://twitter.com/jpcpamies" target='blank'>@jpcpamies</a></figcaption>
 		</figure>
-		<p>Jordi Pàmies</p>
+		<p class="Header-name">Jordi Pàmies</p>
 	</header>
-	<section id="pefil">
-		<h2>Mi Perfil</h2>
-		<p>
+	<section id="pefil" class="Profile">
+		<h2 class="Profile-title">Mi Perfil</h2>
+		<p class="Profile-description">
 			Hola! si llegaste hasta aquí puedes ver mi portafolio y contratarme. 
 		</p>
-		<a href="http://twitter.com/jpcpamies" target='blank'>@jpcpamies</a>
-		<a href="http://facebook.com/jpcpamies" target='blank'>jpcpamies</a>
-		<a href="http://github.com/jpcpamies" target='blank'>jpcpamies</a>
+		<a class="Profile-link" href="http://twitter.com/jpcpamies" target='blank'>@jpcpamies</a>
+		<a class="Profile-link" href="http://facebook.com/jpcpamies" target='blank'>jpcpamies</a>
+		<a class="Profile-link" href="http://github.com/jpcpamies" target='blank'>jpcpamies</a>
 	</section>
-	<section id="trabajo">
-		<h2>Mi Trabajo</h2>
-		<article>
-			<figure>
-				<img src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
-				<figcaption>WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
+	<section id="trabajo" class="Work">
+		<h2 class="Work-title">Mi Trabajo</h2>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
+				<figcaption class="Work-description"> WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
 			</figure>
 		</article>
-		<article>
-			<figure>
-				<img src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
-				<figcaption>WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
+				<figcaption class="Work-description"> WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
 			</figure>
 		</article>
-		<article>
-			<figure>
-				<img src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
-				<figcaption>WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
+				<figcaption class="Work-description"> WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
 			</figure>
 		</article>
-		<article>
-			<figure>
-				<img src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
-				<figcaption>WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
+				<figcaption class="Work-description"> WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
 			</figure>
 		</article>
-		<article>
-			<figure>
-				<img src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
-				<figcaption>WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="fqu.jpg" alt="Página web de las fiestes Quinquenlaes de Ulldecona 2014">
+				<figcaption class="Work-description"> WebApp - Fiesteas Quinquennales Ulldecona 2014</figcaption>
 			</figure>
 		</article>
 	</section>
-	<footer id="contacto">
-		<h3>Contacto</h3>
-		<p>Si tienes una sigerencia o quieres trabajar conmigo ponte en contacto con este formulario.</p>
-		<form>
-			<input type="text" placeholder="Nombre"/>
-			<input type="email" placeholder="Email"/>
-			<textarea placeholder="Motivo"></textarea>
-			<button type="submit">Contactarme</button>
+	<footer id="contacto" class="Footer">
+		<h3 class="Footer-title">Contacto</h3>
+		<p class="Footer-description">Si tienes una sigerencia o quieres trabajar conmigo ponte en contacto con este formulario.</p>
+		<form class="Footer-form">
+			<input class="Footer-fromInput" type="text" placeholder="Nombre"/>
+			<input class="Footer-fromInput" type="email" placeholder="Email"/>
+			<textarea class="Footer-textarea" placeholder="Motivo"></textarea>
+			<button class="Footer-button" type="submit">Contactarme</button>
 		</form>
 	</footer>
 </body>
