@@ -1,3 +1,17 @@
+/*Utilities*/
+
+.u-title {
+	border-bottom: 2px dashed #00D9FF;
+	color: #00D9FF;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+
+
+/*Menu*/
+
 .MainMenu {
 	background: #1E1E1E;
 	height: 3.75em;
@@ -24,6 +38,9 @@
 	line-height: 3.75em;
 	text-decoration: none;
 }
+
+
+/*Header*/
 
 .Header {
 	background: url(../images/portada.jpg);
@@ -59,4 +76,46 @@
 	font-size: 1.5em;
 	font-weight: 300;
 	margin: 0;
+}
+
+
+/*Profile*/
+
+.Profile {
+	text-align: center;
+}
+
+.Profile-link {
+	background: #FF7C00;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin-right: .5em
+}
+
+
+
+/*Work*/
+
+.Work {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.Work-item {
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+
+.Work-imageContainer {
+	margin: 0;
+}
+
+.Work-description {
+	width: 15em;
+	font-size: 1.1em;
+	font-style: italic;
+	color: #515151;
 }
