@@ -119,3 +119,57 @@
 	font-style: italic;
 	color: #515151;
 }
+
+
+/*Footer*/
+
+.Footer {
+	background: url(../images/footer.jpg);
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	padding: 3em 0; 
+	text-align: center;
+}
+
+.Footer-form {
+	text-align: center;
+	display: inline-block;
+}
+
+
+.Footer-left {
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+	vertical-align: top;
+}
+
+.Footer-title {
+	color: white;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+
+.Footer-fromInput,
+.Footer-textarea {
+	background: white;
+	border: none;
+	display: block;
+	border-radius: 2em;
+	padding: .5em;
+	margin: 0 auto 1em;
+}
+
+.Footer-textarea {
+	resize: none;
+}
+
+.Footer-button {
+	color: white;
+	background: #FF7C00;
+	border: none;
+	padding: .7em;
+	border-radius: 2em;
+}
