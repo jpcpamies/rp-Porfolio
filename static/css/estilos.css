@@ -103,6 +103,10 @@
 	text-align: center;
 }
 
+.Work-link {
+	text-decoration: none;
+}
+
 .Work-item {
 	display: inline-block;
 	margin-right: 1.8em;
