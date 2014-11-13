@@ -24,3 +24,39 @@
 	line-height: 3.75em;
 	text-decoration: none;
 }
+
+.Header {
+	background: url(../images/portada.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 3.75em;
+	text-align: center;
+	padding: 1.8em 0;
+}
+
+.Header-imageContainer {
+	margin: 0;
+}
+
+.Header-image {
+	border: 5px solid white;
+	border-radius: 50%;
+}
+
+.Header-name,
+.Header-link {
+	color: white;
+}
+
+.Header-link {
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-name {
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0;
+}
